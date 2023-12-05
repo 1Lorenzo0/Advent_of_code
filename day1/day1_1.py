@@ -13,8 +13,6 @@ def main():
                     if first == -1:
                         first = char
                     last = char
-                else:
-                    
             print(line)
             print(str(first) + str(last))
             sum += numConcat(first, last)
