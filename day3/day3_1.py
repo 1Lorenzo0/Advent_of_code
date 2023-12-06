@@ -20,7 +20,7 @@ with open("./text", "r") as file:
     sum = 0
     with open('./text', 'r') as file:
         for line in file:
-            row = [char for char in line.strip()]  # Converte ogni carattere della riga in una lista
+            row = [char for char in line.strip()]  
             matrix.append(row)
     
     for i in range(len(matrix)):
